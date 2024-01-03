@@ -75,13 +75,15 @@ git clone --recursive  --depth 1 --branch vX.Y.Z https://github.com/STMicroelect
 
 **For any other question** related to the product, the hardware performance or characteristics, the tools, the environment, you can submit it to the **ST Community** on the STM32 MCUs related [page](https://community.st.com/s/group/0F90X000000AXsASAW/stm32-mcus).
 
-## Update 02/01/2024
- * To import STM32 examples into STM32CUBEIDE the user should clone this repo and login in their respective ST account using the ![image] (https://github.com/MaximilianoGraf/STM32CubeL0/assets/73368714/2e64a8dc-bae0-4cc1-a23c-8aaf70e94aea) button.
- * Select the option ![image](https://github.com/MaximilianoGraf/STM32CubeL0/assets/73368714/8e10ca9e-472e-42b7-829e-97d21be988e3) placed in the left side from the Information Center screen. The examples selection window should be opened at this time.
- * Select the right board and desired example, then click on the next button at the bottom.
- * If the legend "Fail to perform local copy" ![image](https://github.com/MaximilianoGraf/STM32CubeL0/assets/73368714/182d20b1-01d8-4ae4-8454-84b2c73dff6e)
-appears, this means that the location of the firmware is wrong. Click next
- * In the Firmware Library Package Setup, change the current location to the repo path cloned before. Click on the Firmware Updater link and introduce re right path.
- * In this example the STM32CubeL0 it's used: ![image](https://github.com/MaximilianoGraf/STM32CubeL0/assets/73368714/867af0fd-a694-48d2-887f-13f0a81d21eb)
- * Apply and close
- * Click on finish and that's it.
+## To import STM32 examples into STM32CUBEIDE, follow these steps:
+ * Clone this repository using this command ```bash git clone --recursive https://github.com/STMicroelectronics/STM32CubeL0.git```
+ * Open STM32CUBEIDE and log in using your respective ST account using this button
+   ![image](https://github.com/MaximilianoGraf/STM32CubeL0/assets/73368714/2e64a8dc-bae0-4cc1-a23c-8aaf70e94aea).
+ * From the Information Center screen, locate and select "Import STM32Cube example" on the left side to open the examples selection window.
+ * Choose the appropriate board and desired example, then click on the "Next" button at the bottom.
+ * If you see the "Fail to perform local copy" message, it indicates an incorrect firmware location. Click "Next."
+ * In the Firmware Library Package Setup, update the current location to the cloned repository path. Click on the Firmware Updater link and enter the correct path.
+ * In this instance, the STM32CubeL0 is used:
+   ![image](https://github.com/MaximilianoGraf/STM32CubeL0/assets/73368714/867af0fd-a694-48d2-887f-13f0a81d21eb)
+ * Apply the changes and close the window.
+ * Click on "Finish," and you're done.
